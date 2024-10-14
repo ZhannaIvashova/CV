@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets//styles/normalize.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header shadow">
+    <nav class="header-nav">
+      <ul class="header-nav__items markers">
+        <li><a class="nav-item" href="#about-me">About me</a></li>
+        <li><a class="nav-item" href="#education">Education</a></li>
+        <li><a class="nav-item" href="#work-experience">Work Experience</a></li>
+        <li><a class="nav-item" href="#skill">Skills</a></li>
+        <li><a class="nav-item" href="#language">Languages</a></li>
+        <li><a class="nav-item" href="#contact">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main shadow">
+    <div class="left-section column-positioning">
+      <section class="left-section__profile column-positioning">
+        <img class="left-section__profile-photo" src="./assets/images/me.jpg" alt="my-photo">
+        <h1 class="left-section__profile-title">Zhanna Ivashova</h1>
+        <div class="border border-dist-bottom"></div>
+        <span class="left-section__profile-occupation uppercase">junior frontend developer</span>
+      </section>
+      <section class="left-section__contact column-positioning" id="contact">
+        <h2 class="left-section__contact-title uppercase">Contacts</h2>
+        <div class="border"></div>
+        <ul class="left-section__contact-list markers">
+          <li>
+            <a href="https://t.me/Zhanna_Ivaa" target="_blank">
+              <img class="telegram-logo" src="./assets/images/telegram-logo.svg" alt="telegram-logo">
+            </a>
+          </li>
+          <li>
+            <a href="mailto:IvashovaHome@yandex.ru">
+              <img class="mail-logo" src="./assets/images/mail-logo.svg" alt="mail-logo">
+            </a> 
+          </li>
+          <li>
+            <a href="https://github.com/ZhannaIvashova" target="_blank">
+              <img class="github-logo" src="./assets/images/github-logo.svg" alt="discord-logo">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="left-section__skill column-positioning" id="skill">
+        <h2 class="left-section__skill-title uppercase">Skills</h2>
+        <div class="border"></div>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>SASS</li>
+          <li>Java Script</li>
+          <li>React</li>
+          <li>MobX</li>
+          <li>Python</li>
+        </ul>
+      </section>
+      <section class="left-section__language column-positioning" id="language">
+        <h2 class="left-section__language-title uppercase">Languages</h2>
+        <div class="border"></div>
+        <ul>
+          <li>Russian (native)</li>
+          <li>English (A2)</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="right-section column-positioning">
+      <section class="right-section__aboutme column-positioning" id="about-me">
+        <h2 class="right-section__aboutme-title uppercase">About me</h2>
+        <div class="border"></div>
+        <p>My goal is to continuously learn and develop in order to become a successful specialist in the future. My strengths include perseverance and diligence. I have experience working on several projects, gained during my programming courses. <br>
+        I strive for new knowledge to improve my skills and create better and more interesting projects.</p>
+      </section>
+      <section class="right-section__education column-positioning" id="education">
+        <h2 class="right-section__education-title uppercase">Education</h2>
+        <div class="border"></div>
+        <ul class="right-section__education-list markers">
+          <li><span class="font">Pacific State University.</span>
+            Industrial and Civil Construction. Project Engineer.
+            2008-2013</li>
+          <li><span class="font">Yandex Practicum. Training Course.</span>
+            Python developer.
+            2023-2024</li>
+          <li><span class="font">ItGirlSchool. Training Course.</span>
+            Frontend developer.
+            2023-2024</li>
+        </ul>
+      </section>
+      <section class="right-section__experience column-positioning" id="work-experience">
+        <h2 class="right-section__experience-title uppercase">Work Experience</h2>
+        <div class="border"></div>
+        <div class="right-section__experience-info">
+          <ul class="right-section__experience-list">
+            <li>
+              Web application for learning English words. The words in the table on the main page are loaded from the database during a get request to the API https://itgirlschool.justmakeit.ru/api/words/. It is possible to add, delete, edit words. There is also a mode for training words using cards.<br>
+              <span class="font">Technologies: React, Vite, Styled-components, MobXJS.</span>
+              <ul class="right-section__experience-link markers">
+                <li>
+                  <a class="experience-item" href="https://github.com/ZhannaIvashova/WordWizard" target="_blank">GitHub</a>
+                </li>
+                <li>
+                  <a class="experience-item" href="https://zhannaivashova.github.io/WordWizard" target="_blank">Visit Website</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              Responsive two-page website.
+              A carousel on the main page is implemented using JavaScript.
+              Data about the animals is sourced from the data_json folders.
+              On the second page, pagination is implemented.
+              A popup is provided for detailed information about nutrition.
+              The website is built in full accordance with the design layout following the Pixel Perfect methodology<br>
+              <span class="font">Technologies: JS, HTML5, CSS3.</span>
+              <ul class="right-section__experience-link markers">
+                <li>
+                  <a class="experience-item" href="https://github.com/ZhannaIvashova/pet-shelter" target="_blank">GitHub</a>
+                </li>
+                <li>
+                  <a class="experience-item" href="https://zhannaivashova.github.io/pet-shelter/" target="_blank">Visit Website</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              Website for a law firm. 
+              Implemented user interface elements using adaptive technologies and semantic layout.<br>
+              <span class="font">Technologies: HTML5, CSS3, Bootstrap</span>
+              <ul class="right-section__experience-link markers">
+                <li>
+                  <a class="experience-item" href="https://github.com/ZhannaIvashova/fr83_justice" target="_blank">GitHub</a>
+                </li>
+                <li>
+                  <a class="experience-item" href="https://zhannaivashova.github.io/fr83_justice/" target="_blank">Visit Website</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              Implemented stop/start listening to music, rewinding the current song, switching songs, progress bar.<br>
+              <span class="font">Technologies: JS, HTML5, CSS3.</span>
+              <ul class="right-section__experience-link markers">
+                <li>
+                  <a class="experience-item" href="https://github.com/ZhannaIvashova/audio-player" target="_blank">GitHub</a>
+                </li>
+                <li>
+                  <a class="experience-item" href="https://zhannaivashova.github.io/audio-player/" target="_blank">Visit Website</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer shadow">
+    <div class="footer-info">
+      <span>Developed by Zhanna Ivashova</span>
+      <p>&copy; 2024</p>
+    </div>
+  </footer>
+</body>
+</html>
