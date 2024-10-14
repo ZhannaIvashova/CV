@@ -1,3 +1,3 @@
 # CV
 
-https://github.com/ZhannaIvashova/CV
+https://zhannaivashova.github.io/CV/
